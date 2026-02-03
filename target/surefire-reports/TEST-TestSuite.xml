@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="17.807" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Javaworkspace11nov\Opencartv1\target\test-classes;C:\Javaworkspace11nov\Opencartv1\target\classes;C:\Users\VAMSHI\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\VAMSHI\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\VAMSHI\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\VAMSHI\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\VAMSHI\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\VAMSHI\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VAMSHI\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\VAMSHI\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\VAMSHI\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\VAMSHI\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\VAMSHI\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\VAMSHI\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\VAMSHI\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VAMSHI\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VAMSHI\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VAMSHI\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\VAMSHI\AppData\Local\Temp\surefire17501263717518078292\surefirebooter-20260204000113339_3.jar C:\Users\VAMSHI\AppData\Local\Temp\surefire17501263717518078292 2026-02-04T00-01-13_082-jvmRun1 surefire-20260204000113339_1tmp surefire_0-20260204000113339_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Javaworkspace11nov\Opencartv1\target\test-classes;C:\Javaworkspace11nov\Opencartv1\target\classes;C:\Users\VAMSHI\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\VAMSHI\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\VAMSHI\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\VAMSHI\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\VAMSHI\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\VAMSHI\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\VAMSHI\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\VAMSHI\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\VAMSHI\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\VAMSHI\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\VAMSHI\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\VAMSHI\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\VAMSHI\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\VAMSHI\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\VAMSHI\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\VAMSHI\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\VAMSHI\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\VAMSHI\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\VAMSHI\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\VAMSHI\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VAMSHI"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Javaworkspace11nov\Opencartv1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\VAMSHI\AppData\Local\Temp\surefire17501263717518078292\surefirebooter-20260204000113339_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="VAMSHI"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\VAMSHI\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VAMSHI\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Javaworkspace11nov\Opencartv1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Java\jdk-25.0.2\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Program Files\apache-maven-3.9.12\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="Verify_Login" classname="testCases.TC002_LoginTest" time="2.016">
+    <system-out><![CDATA[00:01:19.764 [main] INFO  testCases.TC002_LoginTest - --------starting login test----
+00:01:21.750 [main] INFO  testCases.TC002_LoginTest - --------Test steps executed----
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+2026-02-03T18:31:15.554796100Z main DEBUG Apache Log4j Core 2.25 initializing configuration XmlConfiguration[location=C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml, lastModified=2026-01-26T18:25:59.108Z]
+2026-02-03T18:31:15.557800600Z main DEBUG PluginManager 'Core' found 134 plugins
+2026-02-03T18:31:15.557800600Z main DEBUG PluginManager 'Level' found 0 plugins
+2026-02-03T18:31:15.566806700Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2026-02-03T18:31:15.586798200Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2026-02-03T18:31:15.597900400Z main DEBUG createProperty(name="basePath", value="./logs", Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml))
+2026-02-03T18:31:15.600900200Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2026-02-03T18:31:15.604912400Z main DEBUG configureSubstitutor(={basePath=./logs}, Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml))
+2026-02-03T18:31:15.607923100Z main DEBUG PluginManager 'Lookup' found 16 plugins
+2026-02-03T18:31:15.607923100Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2026-02-03T18:31:15.624593900Z main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2026-02-03T18:31:15.626102800Z main DEBUG PluginManager 'Converter' found 45 plugins
+2026-02-03T18:31:15.670554300Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2026-02-03T18:31:15.680561200Z main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml), Filter=null, ={})
+2026-02-03T18:31:15.682558200Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2026-02-03T18:31:15.683781300Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2026-02-03T18:31:15.683781300Z main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2026-02-03T18:31:15.684774100Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2026-02-03T18:31:15.687462500Z main DEBUG createPolicy(size="5000")
+2026-02-03T18:31:15.690502100Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2026-02-03T18:31:15.694090700Z main DEBUG RollingFileAppender$Builder(fileName="./logs/automation.log", filePattern="./logs/automation-%d{yyyy-MM-dd}.log", append="null", locking="null", SizeBasedTriggeringPolicy(SizeBasedTriggeringPolicy(size=5000)), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="File", Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml), Filter=null, ={})
+2026-02-03T18:31:15.703898400Z main DEBUG Returning file creation time for C:\Javaworkspace11nov\Opencartv1\.\logs\automation.log
+2026-02-03T18:31:15.705227900Z main DEBUG Starting RollingFileManager ./logs/automation.log
+2026-02-03T18:31:15.707264100Z main DEBUG PluginManager 'FileConverter' found 2 plugins
+2026-02-03T18:31:15.712286400Z main DEBUG Setting prev file time to 2026-02-03T03:29:05.000+0530
+2026-02-03T18:31:15.712286400Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=5000)
+2026-02-03T18:31:15.712286400Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2026-02-03T18:31:15.712286400Z main DEBUG createAppenders(={Console, File})
+2026-02-03T18:31:15.713281800Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2026-02-03T18:31:15.715287400Z main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2026-02-03T18:31:15.716490600Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2026-02-03T18:31:15.717572100Z main DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2026-02-03T18:31:15.717572100Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2026-02-03T18:31:15.720767700Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={Console, File}, ={}, Configuration(C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml), Filter=null)
+2026-02-03T18:31:15.724218400Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2026-02-03T18:31:15.725227400Z main DEBUG createLoggers(={root})
+2026-02-03T18:31:15.726718800Z main DEBUG Configuration XmlConfiguration[location=C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml, lastModified=2026-01-26T18:25:59.108Z] initialized
+2026-02-03T18:31:15.726718800Z main INFO Starting configuration XmlConfiguration[location=C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml, lastModified=2026-01-26T18:25:59.108Z]...
+2026-02-03T18:31:15.726718800Z main INFO Configuration XmlConfiguration[location=C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml, lastModified=2026-01-26T18:25:59.108Z] started.
+2026-02-03T18:31:15.732962900Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@531f4093...
+2026-02-03T18:31:15.732962900Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2026-02-03T18:31:15.732962900Z main DEBUG OutputStream closed
+2026-02-03T18:31:15.732962900Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2026-02-03T18:31:15.732962900Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2026-02-03T18:31:15.734027900Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@531f4093 stopped.
+2026-02-03T18:31:15.736098200Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2026-02-03T18:31:15.737101800Z main DEBUG Reconfiguration complete for context[name=105be200] at URI C:\Javaworkspace11nov\Opencartv1\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6aecbb8d) with optional ClassLoader: null
+2026-02-03T18:31:15.737101800Z main DEBUG Shutdown hook enabled. Registering a new one.
+2026-02-03T18:31:15.740102700Z main DEBUG LoggerContext[name=105be200, org.apache.logging.log4j.core.LoggerContext@6aecbb8d] started OK.
+]]></system-err>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCases.TC001_AccountRegistrationTest" time="5.552">
+    <system-out><![CDATA[00:01:24.508 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+00:01:24.688 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+00:01:25.134 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:01:25.151 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+prkeI@gmail.com
+EIz@224
+00:01:26.976 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+00:01:30.056 [main] INFO  testCases.TC001_AccountRegistrationTest - Test finished
+]]></system-out>
+    <system-err><![CDATA[2026-02-03T18:31:25.136306600Z main DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2026-02-03T18:31:25.138324500Z main DEBUG Eligible files: {}
+2026-02-03T18:31:25.138324500Z main DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2026-02-03T18:31:25.142329Z main DEBUG OutputStream closed
+2026-02-03T18:31:25.142329Z main DEBUG RollingFileManager executing synchronous FileRenameAction[.\logs\automation.log to .\logs\automation-2026-02-04.log, renameEmptyFiles=false]
+2026-02-03T18:31:25.146849400Z main DEBUG Now writing to ./logs/automation.log at 2026-02-04T00:01:25.145+0530
+]]></system-err>
+  </testcase>
+</testsuite>

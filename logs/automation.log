@@ -1,0 +1,4 @@
+00:01:25.134 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:01:25.151 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+00:01:26.976 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+00:01:30.056 [main] INFO  testCases.TC001_AccountRegistrationTest - Test finished

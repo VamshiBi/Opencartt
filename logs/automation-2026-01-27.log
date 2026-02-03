@@ -1,0 +1,50 @@
+23:39:06.005 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+23:39:06.273 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+23:39:06.747 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+23:39:06.753 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+23:39:08.354 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+23:41:29.211 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+23:41:29.497 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+23:41:29.997 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+23:41:30.002 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+23:41:32.006 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+23:47:12.537 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+23:47:12.788 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+23:47:13.269 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+23:47:13.274 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+23:47:14.969 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+23:47:18.021 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+23:47:18.021 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+23:56:17.967 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+23:56:18.228 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+23:56:18.918 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+23:56:18.923 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+23:56:20.865 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+23:56:23.933 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+23:56:23.933 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+00:20:56.659 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+00:20:56.856 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+00:20:57.286 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:20:57.290 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+00:20:59.466 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+00:21:02.519 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+00:21:02.519 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+00:25:53.727 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+00:25:53.943 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+00:25:54.363 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:25:54.369 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+00:25:56.203 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+00:25:59.253 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+00:25:59.253 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+00:26:05.643 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+00:26:05.896 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+00:26:06.382 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:26:06.383 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+00:26:08.574 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
+00:26:11.635 [main] ERROR testCases.TC001_AccountRegistrationTest - Test failed...
+00:26:11.635 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs...
+00:28:17.442 [main] INFO  testCases.TC001_AccountRegistrationTest - *****starting TC001_AccountRegistrationTest*****
+00:28:17.662 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Clicked on Account*****
+00:28:18.134 [main] INFO  testCases.TC001_AccountRegistrationTest - *****clicked on register*****
+00:28:18.137 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Filling customer details*****
+00:28:19.958 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Validating expecting message*****
