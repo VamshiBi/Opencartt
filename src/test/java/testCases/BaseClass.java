@@ -22,12 +22,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterClass;
-
 public class BaseClass {
 public Logger logger; //Log4j
 public Properties p;
    public static WebDriver driver;
-
     @BeforeClass(groups= {"sanity","Regression","master"})
     @Parameters({"os","browser"})
     public void setup(String os, String br) throws IOException
@@ -56,8 +54,12 @@ public Properties p;
     	default : System.out.println("not valid"); return;
     	}
     driver = new RemoteWebDriver(new URL("http://192.168.1.33:4444"),capabilities);
+    driver.manage().deleteAllCookies();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    driver.get(p.getProperty("appURL"));// from property file which are static and original
+    driver.manage().window().maximize();
     	}
-    	
+    	//In testing/automation context, AUT simply means Application Under Test.
     	if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
     		switch(br.toLowerCase())
         	{
